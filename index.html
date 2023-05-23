@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="styles/indexStyle.css">
+    <title>Challenge 01</title>
+</head>
+<body>
+
+    <header>
+
+        <h1>Cifrado - Descifrado | Challenge 01 </h1>
+
+    </header>
+
+    <main>
+
+        <div class="inpValues">
+            <textarea id="procInput"class="inputText" rows="10" cols="50">Encriptar / desencriptar</textarea>
+
+            <input id='cbtton' type=button value="Cifrar" 
+            onclick="ifShow(),
+            document.getElementById('pResult').innerHTML = 'cifrado',
+            encode(document.getElementById('procInput').value)" 
+            style="width: 25%; margin-left: 10%;"">
+                
+            <input id='dbtton' type=button value="Descifrado" 
+            onclick="ifShow(),
+            decode(document.getElementById('procInput').value),
+            document.getElementById('pResult').innerHTML = 'descifrado'" 
+            style="width: 25%; "">
+
+            <input id='copyResult' type="button" value="Copiar" class="copyB"
+            onclick="copiar()"
+            style="width:25%; margin-left: 10%;">
+
+            <script src="./JS/scripts.js">
+
+            </script>
+
+        </div>
+    
+    
+        <div id='div1' class="showResults">
+            <p>Resultado <span id="pResult"></span>:<br><span id="result"></span></p>
+        </div>
+        <div id='div2' class="imagen">
+            <img src="imgs/rataLupa.jpg" alt="ratilla">
+            <p class="infoOutput1">Esperando instrucciones</p>
+            <p class="infoOutput2">Ingrese texto para cifrar o descifrar</p>
+        </div>
+
+    </main>
+
+    <footer>
+
+    </footer>
+        
+</body>
+</html>

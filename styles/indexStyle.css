@@ -1,0 +1,147 @@
+body{
+    background-color: antiquewhite;
+}
+
+header h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    position: relative;
+    margin-left: 6%;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+.inpValues{
+    position: absolute;
+    width: 60%;
+    height: 65%;
+    /*margin: 0px 50px 1px 1px;*/
+
+}
+.inpValues input{
+    position: relative;
+    font-family: 'inner';
+    border: 2px solid antiquewhite;
+    background-color: rgba(238, 216, 187, 0.5 );
+    padding: 3px;
+}
+
+.inputText{
+    resize: none;
+    outline: none;
+    background: rgba(230, 216, 202, 0.75);
+    margin-left: 10%;
+    width: 100%;
+    height: 580px;
+    border: 2px solid antiquewhite;
+    border-radius: 10px;
+}
+.inputText input{
+    font-size: 5px;
+}
+.showResults{
+    background: rgba(214, 201, 184, 0.5);
+    position: absolute;
+    width: 25%;
+    height: 65%;
+    right: 0;
+    padding: 5px;
+    margin-right: 5%;
+    border: 2px solid antiquewhite;
+    border-radius: 10px;
+    text-align: center;
+}
+.showResults p{
+    font-family: 'Inner';
+    font-style: bold;
+    font-size: 30px;
+}
+
+#result{
+    font-family: 'Inner';
+    font-style: normal;
+    font-size: 20px;
+}
+.showResults textarea{
+    background: rgb(214, 201, 184, 0.2);
+    margin-top: 5%;
+    margin-bottom: auto;
+    border: 2px  antiquewhite;
+    width: 95%;
+    height: 90%;
+
+}
+
+.imagen{
+    background: rgb(214, 201, 184, 0.5);
+    position: absolute;
+    width: 25%;
+    height: 65%;
+    right: 0;
+    padding: 5px;
+    margin-right: 5%;
+    border: 2px solid antiquewhite;
+    border-radius: 10px;
+    text-align: center;
+}
+.imagen img{
+    margin-top: 30%;
+    image-resolution: max;
+}
+#div1{
+    display: none;
+}
+#div2{
+    display: inline;
+}
+
+.showResults{
+    display: none;
+}
+
+.infoOutput1{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%;
+    /* or 29px */
+
+    text-align: center;
+
+    /* Gray/gray-500 */
+
+    color: #343A40;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+.infoOutput2{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    /* or 24px */
+
+    text-align: center;
+
+    /* Gray/gray-400 */
+
+    color: #495057;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+.output div{
+    text-align: center;
+}
